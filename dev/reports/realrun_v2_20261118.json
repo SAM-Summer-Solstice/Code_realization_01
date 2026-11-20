@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "started_at": "2026-11-18T11:47:51+08:00",
+    "ended_at": "2026-11-18T12:12:04+08:00",
+    "total_cases": 10,
+    "success": 7,
+    "failed": 3,
+    "model": "Qwen3.8-27B",
+    "profile": "dev-amd",
+    "pipeline_mode": "single",
+    "prompt_version": "single_v2",
+    "generation_params": {
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": null,
+      "stream": false
+    },
+    "limits": {
+      "max_workers": 1,
+      "timeout": 120.0,
+      "max_retries": 1,
+      "max_calls_per_case": 1
+    },
+    "auth": "header:Authorization",
+    "total_model_calls": 14,
+    "total_retries": 4,
+    "time_filter": "on",
+    "notes": [
+      "dev-amd 通道：鉴权方式 bearer，仅用于开发期自测，禁止进入提交包"
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "DEMO001",
+      "status": "success",
+      "started_at": "2026-11-18T11:47:51+08:00",
+      "ended_at": "2026-11-18T11:49:13+08:00",
+      "duration_ms": 81830,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 832,
+      "evidence_count": 4,
+      "fact_count": 4,
+      "inference_count": 0,
+      "unknown_numbers": [
+        "24"
+      ],
+      "warnings": [
+        "数值回溯（计划段）：计划出现资料中没有的数值 ['24']"
+      ]
+    },
+    {
+      "case_id": "C002",
+      "status": "success",
+      "started_at": "2026-11-18T11:49:13+08:00",
+      "ended_at": "2026-11-18T11:50:29+08:00",
+      "duration_ms": 75501,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 480,
+      "evidence_count": 4,
+      "fact_count": 4,
+      "inference_count": 0,
+      "unknown_numbers": [],
+      "warnings": [
+        "字数：三段合计 480 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C003",
+      "status": "success",
+      "started_at": "2026-11-18T11:50:29+08:00",
+      "ended_at": "2026-11-18T11:51:33+08:00",
+      "duration_ms": 64545,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 788,
+      "evidence_count": 4,
+      "fact_count": 4,
+      "inference_count": 0,
+      "unknown_numbers": [],
+      "warnings": [
+        "补写风险：正文出现资料中没有的'未见异常'",
+        "字数：三段合计 788 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C004",
+      "status": "success",
+      "started_at": "2026-11-18T11:51:33+08:00",
+      "ended_at": "2026-11-18T11:52:59+08:00",
+      "duration_ms": 85614,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [
+        {
+          "source_id": "S04",
+          "reason": "超出自资料截止点"
+        }
+      ],
+      "char_count": 685,
+      "evidence_count": 5,
+      "fact_count": 4,
+      "inference_count": 1,
+      "unknown_numbers": [],
+      "warnings": [
+        "字数：三段合计 685 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C005",
+      "status": "success",
+      "started_at": "2026-11-18T11:52:59+08:00",
+      "ended_at": "2026-11-18T11:54:56+08:00",
+      "duration_ms": 117274,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 777,
+      "evidence_count": 4,
+      "fact_count": 3,
+      "inference_count": 1,
+      "unknown_numbers": [],
+      "warnings": [
+        "字数：三段合计 777 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C006",
+      "status": "success",
+      "started_at": "2026-11-18T11:54:56+08:00",
+      "ended_at": "2026-11-18T11:56:19+08:00",
+      "duration_ms": 83035,
+      "calls": 1,
+      "retries": 0,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 777,
+      "evidence_count": 5,
+      "fact_count": 5,
+      "inference_count": 0,
+      "unknown_numbers": [],
+      "warnings": [
+        "字数：三段合计 777 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C007",
+      "status": "success",
+      "started_at": "2026-11-18T11:56:19+08:00",
+      "ended_at": "2026-11-18T12:00:01+08:00",
+      "duration_ms": 221489,
+      "calls": 2,
+      "retries": 1,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "char_count": 716,
+      "evidence_count": 4,
+      "fact_count": 3,
+      "inference_count": 1,
+      "unknown_numbers": [],
+      "warnings": [
+        "字数：三段合计 716 字，不在建议区间 800–1600"
+      ]
+    },
+    {
+      "case_id": "C008",
+      "status": "failed",
+      "started_at": "2026-11-18T12:00:01+08:00",
+      "ended_at": "2026-11-18T12:04:02+08:00",
+      "duration_ms": 241142,
+      "calls": 2,
+      "retries": 1,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "warnings": [
+        "MODEL_TIMEOUT: HTTP 0: Timeout: The read operation timed out"
+      ]
+    },
+    {
+      "case_id": "C009",
+      "status": "failed",
+      "started_at": "2026-11-18T12:04:02+08:00",
+      "ended_at": "2026-11-18T12:08:03+08:00",
+      "duration_ms": 241149,
+      "calls": 2,
+      "retries": 1,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "warnings": [
+        "MODEL_TIMEOUT: HTTP 0: Timeout: The read operation timed out"
+      ]
+    },
+    {
+      "case_id": "C010",
+      "status": "failed",
+      "started_at": "2026-11-18T12:08:03+08:00",
+      "ended_at": "2026-11-18T12:12:04+08:00",
+      "duration_ms": 241161,
+      "calls": 2,
+      "retries": 1,
+      "prompt_version": "single_v2",
+      "dropped_sources": [],
+      "warnings": [
+        "MODEL_TIMEOUT: HTTP 0: Timeout: The read operation timed out"
+      ]
+    }
+  ]
+}

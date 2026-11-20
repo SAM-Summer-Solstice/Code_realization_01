@@ -1,0 +1,3 @@
+# 本项目零第三方依赖（仅标准库 urllib / json / concurrent.futures）。
+# 保留本文件是为了满足"pip install -r requires.txt 可执行"的协议要求。
+# 禁止在此添加重型依赖：正式评测在封闭网络中进行，安装失败会导致整场 0 分。

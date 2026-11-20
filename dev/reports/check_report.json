@@ -1,0 +1,164 @@
+{
+  "input": "dev\\datasets\\demo_cases.json",
+  "output": "D:\\xzx\\college\\competition\\artificial_intelligence\\Code_realization_01\\output.json",
+  "total": 10,
+  "success": 10,
+  "failed": 0,
+  "protocol_pass": 10,
+  "protocol_pass_rate": 100.0,
+  "fidelity_ok": 10,
+  "fidelity_ok_rate": 100.0,
+  "top_issues": [],
+  "cases": [
+    {
+      "case_id": "DEMO001",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 704,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C002",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 274,
+        "evidence_count": 2,
+        "fact_count": 1,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C003",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 388,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C004",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 361,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C005",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 467,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C006",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 464,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C007",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 434,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C008",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 437,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C009",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 431,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    },
+    {
+      "case_id": "C010",
+      "issues": [],
+      "fidelity_warnings": [],
+      "stats": {
+        "char_count": 488,
+        "evidence_count": 4,
+        "fact_count": 3,
+        "inference_count": 1,
+        "unknown_numbers": []
+      }
+    }
+  ],
+  "run_summary": {
+    "started_at": "2026-11-18T12:34:02+08:00",
+    "ended_at": "2026-11-18T12:34:02+08:00",
+    "total_cases": 10,
+    "success": 10,
+    "failed": 0,
+    "model": "mock-deterministic",
+    "profile": "mock",
+    "pipeline_mode": "single",
+    "prompt_version": "single_v2",
+    "generation_params": {
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "seed": null,
+      "stream": false
+    },
+    "limits": {
+      "max_workers": 1,
+      "timeout": 300.0,
+      "max_retries": 1,
+      "max_calls_per_case": 1
+    },
+    "auth": "none",
+    "total_model_calls": 10,
+    "total_retries": 0,
+    "time_filter": "on",
+    "notes": [
+      "mock 通道：确定性模板输出，仅验证协议，不代表模型能力"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+# 统一换行符，避免 Windows / Linux 交叉提交产生整文件 diff
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# 二进制文件不做换行转换
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary

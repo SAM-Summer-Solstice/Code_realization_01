@@ -1,0 +1,58 @@
+# 本仓库只收录代码：赛题分析、题目原文、规划文档留在 ..\Q_analysis_00\（见 README「库外资料」）
+
+# 真实配置与密钥：永不提交、永不打包
+.env
+.env.*
+!.env.example
+.env.local
+*.key
+*.pem
+secrets/
+secrets*
+
+# 运行产物与日志
+runs/
+logs/
+log/
+output.json
+output.json.tmp
+results.json
+results.json.tmp
+run_log.json
+run_log*.json
+run_log*.jsonl
+*.log
+*.tmp
+*.bak
+
+# 本地数据（真实/教学病例不入库，保留示例）
+data/*
+!data/sample/
+
+# 打包产物
+*.zip
+dist/
+build/
+~$*
+.~lock.*
+*.crdownload
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
